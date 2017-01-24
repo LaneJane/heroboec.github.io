@@ -1,0 +1,96 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+header {
+  background: #f1f5f7;
+  /*border: solid 1px #f1f5f7;*/
+  /*padding-top: 10px;*/ }
+
+.header-top {
+  /*padding-top: 10px;*/
+  min-height: 43px;
+  margin-bottom: 15px; }
+
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*background: red;*/ }
+
+.logo {
+  float: left;
+  width: 220px;
+  height: 47px;
+  background: red;
+  padding-top: 10px; }
+
+.search-form {
+  /*display: inline-block;*/
+  float: left;
+  width: 260px;
+  height: 33px;
+  padding-top: 10px; }
+
+.bookmarks {
+  /*display: inline-block;*/
+  float: left;
+  width: 150px;
+  height: 43px; }
+
+.cart {
+  /*display: inline-block;*/
+  float: left;
+  width: 160px;
+  height: 43px; }
+
+.place-order {
+  /*display: inline-block;*/
+  float: left;
+  height: 43px;
+  width: 150px; }
+
+.header-middle p {
+  float: left;
+  width: 310px;
+  min-height: 140px;
+  margin-right: 10px;
+  background-color: rgba(255, 0, 0, 0.2); }
+
+.contact-info {
+  float: left;
+  width: 310px;
+  margin-right: 10px; }
+
+.register-buttons {
+  float: right;
+  width: 300px;
+  /*height: 140px;*/
+  background: red; }
+
+.header-bottom ul {
+  padding: 0px; }
+.header-bottom li {
+  display: inline-block;
+  width: 130px; }
+
+body > * {
+  background-color: rgba(255, 0, 0, 0.2);
+  border: solid 1px rgba(255, 0, 0, 0.3); }
+
+body > * > * {
+  background-color: rgba(255, 255, 0, 0.2);
+  border: solid 1px rgba(255, 255, 0, 0.3); }
+
+body > * > * > * {
+  background-color: rgba(0, 255, 0, 0.2);
+  border: solid 1px rgba(0, 255, 0, 0.3); }
+
+body > * > * > * > * {
+  background-color: rgba(0, 0, 255, 0.2);
+  border: solid 1px rgba(0, 0, 255, 0.3); }
+
+/*# sourceMappingURL=style.css.map */
