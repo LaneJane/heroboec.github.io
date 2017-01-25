@@ -135,6 +135,47 @@ header {
       width: 140px;
       height: 40px;
       font-size: 14px; }
+  .right-col :last-child {
+    margin-bottom: 0px; }
+
+.top-products-header, .top-brand-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #f7f3ec; }
+  .top-products-header b, .top-brand-header b {
+    float: left;
+    font-size: 30px; }
+  .top-products-header a, .top-brand-header a {
+    float: right;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: red; }
+
+.top-products {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .top-products .top-prod-item {
+    float: left;
+    width: 220px;
+    height: 320px;
+    margin-right: 20px; }
+  .top-products :last-child {
+    margin-right: 0px; }
+
+.top-brands {
+  /*folat: left;*/ }
+  .top-brands .brands-item {
+    /*220x145*/
+    float: left;
+    width: 220px;
+    height: 145px;
+    margin-right: 20px; }
+  .top-brands :nth-child(4n) {
+    margin-right: 0px; }
 
 body > * {
   background-color: rgba(255, 0, 0, 0.2);
